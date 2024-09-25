@@ -1,0 +1,19 @@
+# Ignore system files
+__pycache__/
+*.pyc
+
+# Ignore large datasets (if they don't need to be on GitHub)
+*.csv
+*.pkl
+*.h5
+*.log
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore PyCharm/IDE settings
+.idea/
+
+# Ignore Python virtual environments
+.venv/
